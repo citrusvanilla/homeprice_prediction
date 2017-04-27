@@ -2,15 +2,19 @@
 
 >*NOTE: Sample is included in this repository.
 
-The Jupyter notebook `homeprice_prediction.ipynb` contains a walkthrough of an accompanying Python module (`homeprice_prediction.py`) for predicting home prices using supervised learning through [Decision Trees](https://en.wikipedia.org/wiki/Decision_tree).  It contains code for displaying ['learning curves'](https://en.wikipedia.org/wiki/Learning_curve#In_machine_learning) so that a user can view how the model's predictions perform on unseen homes as more and more training data is analyzed.
+This repository contains the Jupyter notebook `homeprice_prediction.ipynb` and an accompanying Python module (`homeprice_prediction.py`) for predicting home prices using supervised learning through [Decision Trees](https://en.wikipedia.org/wiki/Decision_tree).  It contains code for displaying ['learning curves'](https://en.wikipedia.org/wiki/Learning_curve#In_machine_learning) so that a user can view how the model's predictions perform on unseen homes as more and more training data is analyzed:
 
 ![alt text](http://i.imgur.com/wojpXgx.jpg)
 
-The notebook also contains code for displaying ['model complexity graphs'](http://www.dummies.com/programming/big-data/data-science/model-complexity-machine-learning/) to guard against overfitting.
+The notebook also contains code for displaying ['model complexity graphs'](http://www.dummies.com/programming/big-data/data-science/model-complexity-machine-learning/) to guard against overfitting:
 
 ![alt text](http://i.imgur.com/7ZfcXds.jpg)
 
 The notebook then concludes with code that optimizes the Decision Tree over a range of parameters and demonstrates a prediction of the optimized model with a sample house.
+
+## Goals
+
+This repository demonstrates useful tools for "babysitting" the learning process of a supervised machine learning problem, and shows a method for optimizing a Decision Tree to fit the dataset.
 
 ## Software and Library Requirements
 * Python 2.7.11
